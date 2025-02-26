@@ -1,0 +1,31 @@
+.nav-section{
+  margin-left: 10px;
+}
+.text{
+  color:#cacceb;
+  margin: 0;
+}
+h2{
+  padding: 10px 0;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+li{
+  
+  list-style-type: none;
+  
+}
+li::before{
+  content: "#";
+}
+
+.underline1{
+  padding: 0 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width:100%;
+  height: 2px;
+  background-color: rgb(82, 83, 83);
+}
