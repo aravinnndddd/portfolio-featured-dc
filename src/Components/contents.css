@@ -1,0 +1,30 @@
+.contents{
+    position: relative;
+    height: 85vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: linear-gradient(180deg ,#0d0425,#221048 , #0d042c  );
+
+}
+h5{
+    margin: 0;
+    color: #a4a6bb;
+}
+.nav-info{
+    padding:10px 0;
+    background-color: rgba(3, 0, 8, 0.499);
+}
+.about{
+    margin-left: 50px;
+    width: 300px;
+    text-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10%;
+}
+.text1{
+    font-size: 15px;
+    color:#a4a6bb;
+    margin: 0;
+}

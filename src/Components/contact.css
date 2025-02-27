@@ -1,0 +1,26 @@
+.contact{
+  height: 85vh;
+  width: 50px;
+  border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  position: relative;
+  z-index: 10;
+  background-image: linear-gradient(180deg ,#03000b  , #724ae7  );
+}
+.dc-icon{
+  margin-top:10px;
+}
+.underline{
+  padding: 0 10px;
+  margin-bottom: 5px;
+  width:5px;
+  height: 1px;
+  background-color: rgb(82, 83, 83);
+}
+svg{
+  display: flex;
+  margin: 10%;
+  background-color: #6d56b49a;
+  border-radius: 50%;
+  padding: 5%;
+}
