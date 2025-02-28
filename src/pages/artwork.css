@@ -1,0 +1,68 @@
+#artwork{
+  background-image: linear-gradient(180deg ,#030108,#0d0324 , #0d042c  );
+}
+.works{
+  overflow-y:scroll;
+  overflow-x: hidden;
+  padding: 0;
+  height: 70vh;
+  position: absolute;
+  bottom: 40px;
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns:minmax(150px, 1%) minmax(150px, 1%) minmax(150px, 1%);
+  grid-auto-rows: 150px;
+  gap:5px;
+  width: 60%;
+}
+.artworks:first-child{
+
+  width: 100%;
+  height: 100%;
+grid-column: span 3;
+grid-row: span 2;
+}
+.artworks:nth-child(7){
+  width: 100%;
+  height: 100%;
+grid-row: span 2;
+}
+.artworks:nth-child(13){
+  width: 100%;
+  height: 100%;
+grid-row: span 2;
+}
+.artworks:nth-child(23){
+  width: 100%;
+  height: 100%;
+grid-row: span 2;
+}
+
+.artworks{
+  position: relative;
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #301675;
+  border-radius: 20px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #a49ed9;
+  border-radius: 20px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c8c5e6;
+}
